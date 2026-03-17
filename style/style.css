@@ -1,0 +1,185 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding-top: 30px;
+}
+
+nav {
+    display: flex;
+    margin-right: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none; /* biar gak ada bullet point */
+    margin: 0; /* hilangkan margin default */
+    padding: 0; /* hilangkan padding default */
+    margin-right: 50px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+nav a {
+    color: black;
+    text-decoration: none; /* biar gak ada garis bawah */
+}
+
+.logo {
+    height: 50px;
+    margin-left: 50px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.homepage {
+    gap: 30px;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.herophoto {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.experience {
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.experience-card {
+    margin-top: 50px;
+    background: white;
+    border-radius: 10px;
+}
+
+.education {
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.education-card {
+    margin-top: 50px;
+}
+
+.project {
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.project-card {
+    margin-top: 50px;
+}
+
+.experience-card,
+.education-card,
+.project-card {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.contactme {
+    margin-top: 50px;
+    gap: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #888;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: flex;
+        cursor: pointer;
+        flex-direction: column;
+        margin-right: 20px;
+        font-size: 24px;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul.active{
+    display: flex;
+    }
+
+    .logo {
+        height: 40px;
+        margin-left: 20px;
+    }
+
+    section {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .homepage {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .herophoto {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .experience-card,
+    .education-card,
+    .project-card {
+        flex-direction: column;
+    }
+
+}
