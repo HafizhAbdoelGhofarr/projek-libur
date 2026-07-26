@@ -5,7 +5,6 @@ toggle.addEventListener("click", () => {
     menu.classList.toggle("active");
 });
 
-
 let username;
 let description;
 document.getElementById("submit").onclick = function() {

@@ -1,9 +1,14 @@
+<?php
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="assets/style/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hafizh Abdoel Ghofar</title>
 </head>
@@ -11,7 +16,7 @@
 <body>
     <header>
         <nav>
-            <img src="assets/Screenshot 2026-02-12 143735.png" alt="logo adidas" class="logo">
+            <img src="assets/image/Screenshot 2026-02-12 143735.png" alt="logo adidas" class="logo">
 
             <div class="menu-toggle">
                 ☰
@@ -36,14 +41,14 @@
         </div>
 
         <div class="herophoto">
-            <img src="assets/Hafizh.jpeg" alt="Buffett photo">
+            <img src="assets/image/Hafizh.jpeg" alt="Buffett photo">
         </div>
     </section>
 
     <section class="experience" id="experience">
         <h1>Experience</h1>
         <div class="experience-card">
-            <img src="assets/images.jpeg" alt="Experience photo">
+            <img src="assets/image/images.jpeg" alt="Experience photo">
 
             <div>
                 <h2>Founder & Investment Manager (1956–1969)</h2>
@@ -55,7 +60,7 @@
             </div>
         </div>
         <div class="experience-card">
-            <img src="assets/images.jpeg" alt="Chairman & CEO photo">
+            <img src="assets/image/images.jpeg" alt="Chairman & CEO photo">
             <div>
                 <h2>Chairman & CEO (1970–now)</h2>
                 <p>Buffett worked from 1951 to 1954 at his father's firm, Buffett-Falk & Co., as an investment salesman;
@@ -70,7 +75,7 @@
     <section class="education" id="education">
         <h1>Education</h1>
         <div class="education-card">
-            <img src="assets/images.jpeg" alt="Education photo">
+            <img src="assets/image/images.jpeg" alt="Education photo">
             <div>
                 <h2>Indonesia University (1956–1969)</h2>
                 <p>Buffett worked from 1951 to 1954 at his father's firm, Buffett-Falk & Co., as an investment salesman;
@@ -81,7 +86,7 @@
             </div>
         </div>
         <div class="education-card">
-            <img src="assets/images.jpeg" alt="education photo">
+            <img src="assets/image/images.jpeg" alt="education photo">
             <div>
                 <h2>Lampung University (1970–now)</h2>
                 <p>Buffett worked from 1951 to 1954 at his father's firm, Buffett-Falk & Co., as an investment salesman;
@@ -96,7 +101,7 @@
     <section class="project" id="project">
         <h1>Project</h1>
         <div class="project-card">
-            <img src="assets/images.jpeg" alt="Portfolio Project photo">
+            <img src="assets/image/images.jpeg" alt="Portfolio Project photo">
             <div>
                 <h2>Portfolio Project </h2>
                 <p>Buffett worked from 1951 to 1954 at his father's firm, Buffett-Falk & Co., as an investment salesman;
@@ -107,7 +112,7 @@
             </div>
         </div>
         <div class="project-card">
-            <img src="assets/images.jpeg" alt="Administration Software photo">
+            <img src="assets/image/images.jpeg" alt="Administration Software photo">
             <div>
                 <h2>Administration Software </h2>
                 <p>Buffett worked from 1951 to 1954 at his father's firm, Buffett-Falk & Co., as an investment salesman;
